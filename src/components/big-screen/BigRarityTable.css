@@ -1,0 +1,96 @@
+.big-rarity-table-wrapper {
+    background: url("../images/космос.png");
+    padding-top: 65px;
+}
+
+
+.big-rarity-table {
+    /*background-color: #090808;*/
+    display: grid;
+    grid-template-rows: max-content max-content max-content;
+    justify-items: center;
+    grid-row-gap: 80px;
+}
+
+.big-rarity-title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: grid;
+    justify-items: center;
+}
+
+.big-trait-buttons {
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 30px;
+    width: auto;
+}
+
+.bigTraitButton button {
+    width: 147px;
+}
+
+.bigRarityButton button {
+    width: 147px;
+}
+
+.big-rarity-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 30px;
+}
+
+.bigTraitButton button {
+    background-color: #5D41AC;
+}
+
+.common button {
+    background-color: #6F6F6F;
+}
+
+.rare button {
+    background-color: #569AFF;
+}
+
+.epic button {
+    background-color: #7B006F;
+}
+
+.legendary button {
+    background-color: #BF970A;
+}
+
+.raritySlider {
+    padding-bottom: 120px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+.big-rarity-slider-wrapper {
+    width: 50%;
+    max-width: 600px;
+}
+
+.bigTraitButton button {
+    text-transform: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bigRarityButton button {
+    text-transform: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.activeButton {
+    border: solid 3px white;
+    border-radius: 8px;
+}

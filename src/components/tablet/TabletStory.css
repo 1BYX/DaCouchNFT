@@ -1,0 +1,30 @@
+.tablet-story {
+    display: grid;
+    grid-template-rows: max-content max-content;
+    align-items: center;
+    justify-items: center;
+    background-color: #090808;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    grid-row-gap: 50px;
+}
+
+.tablet-story-description {
+    font-size: 24px;
+    color: white;
+    width: 70%;
+}
+
+.tablet-story-description a {
+    color: white;
+    font-weight: bold;
+}
+
+.tablet-story-gif-wrapper {
+    width: 70%;
+}
+
+.tablet-story-gif {
+    border-radius: 8px;
+    width: 100%;
+}

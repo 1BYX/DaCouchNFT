@@ -1,0 +1,32 @@
+.LEFTARROW {
+    color: white;
+    cursor: pointer;
+    width: 40px;
+}
+
+.RIGHTARROW {
+    color: white;
+    cursor: pointer;
+}
+
+.carousel {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    grid-column-gap: 40px;
+}
+
+.carousel img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.carouselItem {
+    width: max-content;
+    display: grid;
+    border-radius: 8px;
+}
+
+.rec.rec-pagination {
+    visibility: collapse;
+}

@@ -1,0 +1,43 @@
+.big-footer {
+    display: grid;
+    grid-template-rows: max-content max-content;
+    /*background: url("../images/космос.png");*/
+    background-color: #090808;
+    color: white;
+    justify-items: center;
+    align-items: center;
+}
+
+.big-footer-slogan {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.big-footer-icons {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-gap: 35px;
+    grid-template-rows: max-content max-content;
+}
+
+.big-footer-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #8C8CBF;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.big-footer-icon img {
+    width: 40px;
+}
+
+.rights {
+    grid-column: 0/3;
+    padding-bottom: 30px;
+}

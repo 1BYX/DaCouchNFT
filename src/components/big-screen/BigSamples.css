@@ -1,0 +1,35 @@
+.big-samples {
+    background-color: #090808;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.description {
+    color: white;
+    display: grid;
+    align-items: center;
+    padding: 10%;
+    font-size: 24px;
+    width: 70%;
+}
+
+.slider-wrapper {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.slider {
+    display: grid;
+    justify-items: start;
+    width: 100%;
+    max-width: 600px;
+    padding-top: 45px;
+}
+

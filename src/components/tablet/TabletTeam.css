@@ -1,0 +1,62 @@
+.tablet-team {
+    background-color: #090808;
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 50px;
+    text-align: center;
+}
+
+.tablet-team img {
+    width: 60%;
+}
+
+
+.tablet-team-title {
+    font-weight: bold;
+    font-size: 35px;
+    display: grid;
+    justify-items: center;
+    padding-bottom: 50px;
+}
+
+.tablet-team-members {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 50px;
+}
+
+.tablet-team-member-img {
+    display: grid;
+    justify-items: center;
+}
+
+.tablet-team-member-img img {
+    border-radius: 8px;
+}
+
+.tablet-team-member-name {
+    display: grid;
+    justify-items: center;
+}
+
+.tablet-team-member1 {
+
+}
+
+.tablet-team-member2 {
+
+}
+
+.tablet-team-member3 {
+
+}
+
+.tablet-team-member4 {
+
+}

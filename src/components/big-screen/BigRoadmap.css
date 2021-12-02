@@ -1,0 +1,190 @@
+.big-roadmap-wrapper {
+    padding-top: 65px;
+    padding-bottom: 80px;
+    background: url("../images/космос.png");
+}
+
+.big-roadmap {
+    background: url("../images/космос.png");
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(5, auto);
+    grid-row-gap: 60px;
+    color: white;
+    padding-top: 40px;
+}
+
+.big-roadmap-title {
+    color: white;
+    display: grid;
+    justify-items: center;
+}
+
+.textOdd {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 30px;
+
+    animation-name: floating;
+
+    animation-duration: 3s;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function: ease-in-out;
+}
+
+.textEven {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    animation-name: floating;
+
+    animation-duration: 4s;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function: ease-in-out;
+
+}
+
+.textWrapper {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.textOdd p {
+    position: absolute;
+    z-index: 555;
+    padding: 15px 0px 0px 24px;
+    max-width: 400px;
+    font-weight: bold;
+}
+
+.textEven p {
+    position: absolute;
+    z-index: 555;
+    padding: 15px 0px 0px 24px;
+    max-width: 350px;
+    font-weight: bold;
+}
+
+.number {
+    padding-bottom: 32px;
+}
+
+.empty1 {
+    display: grid;
+
+    animation-name: floating;
+
+    animation-duration: 5s;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function: ease-in-out;
+}
+
+.empty1 img {
+    transform: rotate(35deg);
+    width: 180px;
+}
+
+.empty2 {
+    display: grid;
+    justify-items: end;
+}
+
+.empty2 img {
+    transform: rotate(-105deg);
+    width: 100px;
+
+    animation-name: spin;
+    animation-duration: 18000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+.empty3 {
+    display: grid;
+    justify-items: center;
+}
+
+.empty3 img {
+    width: 100px;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.empty4 {
+    display: grid;
+    justify-items: center;
+
+}
+
+.empty4 img {
+    width: 120px;
+    animation-name: spin;
+    animation-duration: 30000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.empty5 {
+    display: grid;
+    justify-items: center;
+}
+
+.empty5 img {
+    animation-name: spin;
+    animation-duration: 70000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+
+
+/*img:hover {*/
+/*    animation: shake 0.5s;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes floating {
+
+    0% { transform: translate(0, 0px); }
+
+    50% { transform: translate(0, 20px); }
+
+    100% { transform: translate(0, -0px); }
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

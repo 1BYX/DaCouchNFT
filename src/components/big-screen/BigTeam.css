@@ -1,0 +1,66 @@
+.big-team {
+    background-color: #090808;
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+
+.big-team-title {
+    font-weight: bold;
+    font-size: 40px;
+    display: grid;
+    justify-items: center;
+    padding-bottom: 50px;
+}
+
+.big-team-members {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    grid-gap: 40px;
+    width: 85%;
+}
+
+.big-team-members img {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.big-team-member-img {
+    display: grid;
+    justify-items: center;
+}
+
+.big-team-member1 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-team-member2 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.big-team-member3 {
+    justify-items: center;
+    align-items: center;
+}
+
+
+.big-team-member5 {
+    grid-column: 5/6;
+    justify-items: center;
+    align-items: center;
+}
+
+.big-team-member-name {
+    display: grid;
+    justify-items: center;
+}

@@ -1,0 +1,29 @@
+.big-first-screen{
+    padding-top: 70px;
+    height: 94vh;
+    background: url("../images/backgroundScreen.png") no-repeat center top /cover;
+}
+
+@media only screen and (min-width: 1130px) {
+    .big-first-screen{
+        padding-top: 70px;
+        height: 94vh;
+        background: url("../images/backgroundScreen.png") no-repeat center top /cover;
+    }
+}
+
+@media only screen and (max-width: 1129px){
+    .big-first-screen{
+        padding-top: 70px;
+        height: 1024px;
+        background: url("../images/backgroundScreen.png") no-repeat center top /cover;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .big-first-screen{
+        padding-top: 70px;
+        height: 800px;
+        background: url("../images/backgroundScreen.png") no-repeat center top /cover;
+    }
+}

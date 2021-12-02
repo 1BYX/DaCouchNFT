@@ -1,0 +1,29 @@
+.big-story {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+    background-color: #090808;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.big-story-description {
+    font-size: 25px;
+    color: white;
+    width: 70%;
+}
+
+.big-story-description a {
+    color: white;
+    font-weight: bold;
+}
+
+.big-story-gif-wrapper {
+    width: 70%;
+}
+
+.big-story-gif {
+    border-radius: 8px;
+    width: 100%;
+}

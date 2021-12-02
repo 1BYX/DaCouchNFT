@@ -1,0 +1,79 @@
+.big-header{
+    background-color: #00000C;
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    color: white;
+    align-items: center;
+    height: 80px;
+}
+
+.title{
+    padding-left: 15%;
+    font-weight: bold;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.nav{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 25%);
+    font-weight: 600;
+    font-size: 20px;
+    justify-items: center;
+}
+
+.navItem1 .navItem2 .navItem3{
+    background-color: #00000C;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: bold;
+    width: 144px;
+    height: 100%;
+}
+
+.navItem1 {
+    cursor: pointer;
+    display: grid;
+    justify-items: center;
+}
+
+.navItem2 {
+    cursor: pointer;
+    display: grid;
+    justify-items: center;
+}
+
+.navItem3 {
+    cursor: pointer;
+    display: grid;
+    justify-items: center;
+}
+
+.insideSnackbar {
+    background-color: #8C8CBF;
+    color: white;
+    width: 430px;
+    height: 80px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navItem4 button {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: none;
+    background-color: #8C8CBF;
+    font-family: 'Quicksand', sans-serif;
+    width: 81px;
+    height: 47px;
+    border-radius: 6px;
+    color: white;
+}
